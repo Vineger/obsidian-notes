@@ -1,0 +1,13 @@
+- Master - 作为运行 控制平面 的 节点 的同义词使用
+- Control Plane -  控制平面（Control Plane）是指容器编排层，它暴露 API 和接口来定义、 部署容器和管理容器的生命周期
+	- 节点控制器
+- Node [[Node (草稿)]]
+- Pod - Pod 是 Kubernetes 的原子对象。Pod 表示您的集群上一组正在运行的[容器（containers）](https://kubernetes.io/zh/docs/concepts/overview/what-is-kubernetes/#why-containers)
+- Service
+	-   _ClusterIP_ (默认) - 在集群的内部 IP 上公开 Service 。这种类型使得 Service 只能从集群内访问。
+	-   _NodePort_ - 使用 NAT 在集群中每个选定 Node 的相同端口上公开 Service 。使用`<NodeIP>:<NodePort>` 从集群外部访问 Service。是 ClusterIP 的超集。
+	-   _LoadBalancer_ - 在当前云中创建一个外部负载均衡器(如果支持的话)，并为 Service 分配一个固定的外部IP。是 NodePort 的超集。
+	-   _ExternalName_ - 通过返回带有该名称的 CNAME 记录，使用任意名称(由 spec 中的`externalName`指定)公开 Service。不使用代理。这种类型需要`kube-dns`的v1.7或更高版本。
+- API服务器
+- Deployment
+	- ReplicaSet

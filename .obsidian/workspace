@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "509030688a75b25c",
+    "id": "037c214bba8e0884",
     "type": "split",
     "children": [
       {
-        "id": "eec58fc735f28fea",
+        "id": "562e32423cebab5d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Microservice patterns/Saga.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247
   },
   "right": {
     "id": "110010ce21393df0",
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Microservice patterns/Saga.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +86,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eec58fc735f28fea",
-  "lastOpenFiles": []
+  "active": "562e32423cebab5d",
+  "lastOpenFiles": [
+    "Microservice patterns/Saga.md",
+    "Microservice patterns/Event  sourcing.md",
+    "未命名/Pasted image 20211117160702.png",
+    "Kubernetes/控制器.md",
+    "Kubernetes/Node (草稿).md",
+    "Kubernetes/concept.md",
+    "Node.md"
+  ]
 }
